@@ -2,81 +2,96 @@
 <html>
 
 <head>
-	<title>Parcel Sandbox</title>
-	<meta charset="UTF-8" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <title>Parcel Sandbox</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 
 <body>
-	<div class="navbar navbar-inverse">
-    <div class="container">
-      <ul class="nav navbar-nav list-unstyled">
-        <li>
-          <a href="#"> <abbr title="APJ Abdul Kalam">The Missile Man </abbr> </a>
-        </li>
-      </ul>
-      <ul class="nav navbar-nav list-unstyled navbar-right">
-        <li> <a href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam" target="blank">Know more here </a></li>
-        <li> <a href="https://www.facebook.com/draloksp/"> Like him here </a></li>
-        <li> <a href="https://twitter.com/officialkalam"> Tweet him here </a> </li>
-      </ul>
-    </div>
-  </div>
-  <div class="container" id="bg-color">
-    <div class="row">
-
-      <h1 class="text-center"> APJ Abdul Kalam </h1>
-      <h3 class="text-center"> <small>aka Missile Man aka People's President <small> </h3>
-      <ul>
-    </div>
-    <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-4 ">
-        <li class="h3 list-unstyled"><em> When he was a kid</em> </li>
+  <div id="main">
+    <div class="navbar navbar-inverse">
+      <div class="container">
+        <ul class="nav navbar-nav list-unstyled">
+          <li>
+            <a href="#"> <abbr title="APJ Abdul Kalam">The Missile Man </abbr> </a>
+          </li>
         </ul>
-        <img src="http://s3.india.com/wp-content/uploads/2015/08/1234.jpg" class="img-responsive img-thumbnail">
-        <ul> <br>
-          <li> Born on 15 October 1931 to a Tamil Muslim family in the pilgrimage centre of Rameswaram on Pamban Island </li>
-          <li> Kalam was the youngest of four brothers and one sister in his family. </li>
-          <li> He went to Ramanathapuram Schwartz Matriculation School and worked from an early age to supplement the family income.</li><br>
-
+        <ul class="nav navbar-nav list-unstyled navbar-right">
+          <li> <a id="tribute-link" href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam" target="_blank">Know more here </a></li>
+          <li> <a id="tribute-link" href="https://www.facebook.com/draloksp/" target="_blank"> Like him here </a></li>
+          <li> <a id="tribute-link" href="https://twitter.com/officialkalam" target="_blank"> Tweet him here </a> </li>
         </ul>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-4 ">
+    </div>
+    <div class="container" id="bg-color">
+      <div class="row">
+
+        <h1 class="text-center" id="title"> APJ Abdul Kalam </h1>
+        <h3 class="text-center" id="tribute-info"> <small>aka Missile Man aka People's President <small> </h3>
         <ul>
-          <li class="h3 list-unstyled"> <em>When he became scientist </em></li>
-        </ul>
-        <img src="https://goo.gl/8xuLkS" class="img-responsive img-thumbnail"><br>
-        <ul> <br>
-          <li> After graduating from the Madras Institute of Technology in 1960, Kalam joined the Aeronautical Development Establishment of the Defence Research and Development Organisation (DRDO) as a scientist.</li>
-          <li> Kalam moves to the Indian Space Research Organisation (ISRO) where he helms India's first Satellite Launch Vehicle (SLV-III) </li>
-          <li> Kalam heads Project Devil and Project Valiant, which developed ballistic missiles from the technology of the SLV programme.</li>
-          <li>As the chief of the Integrated Guided Missile Development Programme, he is credited with the development and operationalisation of Agni and Prithvi missiles. </li>
-          <li>India conducts the Pokhran II nuclear tests with Kalam being one of the forces behind its success </li><br>
-        </ul>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-4 ">
-        <ul>
-          <li class="h3 list-unstyled"><em> When he became President </em></li>
-        </ul>
-        <img src="https://goo.gl/gPczz7" class="img-responsive img-thumbnail"> <br>
-        <ul> <br>
-          <li> Kalam is elected the 11th President of India succeeding KR Narayanan.</li>
-          <li> He won the 2002 presidential election with an electoral vote of 922,884. </li>
-          <li> During his five years in office, he was fondly called ‘The People’s President’</li>
-          <li> Kalam passes away aged 83, after collapsing because of a cardiac arrest while delivering a lecture at IIM Shillong</li> <br>
-        </ul>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4 ">
+          <li class="h3 list-unstyled"><em> When he was a kid</em> </li>
+          </ul>
+          <div id="img-div">
+              <img src="http://s3.india.com/wp-content/uploads/2015/08/1234.jpg" id="image" class="img-responsive img-thumbnail">
+          <div id="img-caption">Little APJ Kalam with this family</div>
+            </div>
+          <ul> <br>
+            <li> Born on 15 October 1931 to a Tamil Muslim family in the pilgrimage centre of Rameswaram on Pamban
+              Island </li>
+            <li> Kalam was the youngest of four brothers and one sister in his family. </li>
+            <li> He went to Ramanathapuram Schwartz Matriculation School and worked from an early age to supplement the
+              family income.</li><br>
+
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 ">
+          <ul>
+            <li class="h3 list-unstyled"> <em>When he became scientist </em></li>
+          </ul>
+          <img src="https://goo.gl/8xuLkS" class="img-responsive img-thumbnail"><br>
+          <ul> <br>
+            <li> After graduating from the Madras Institute of Technology in 1960, Kalam joined the Aeronautical
+              Development Establishment of the Defence Research and Development Organisation (DRDO) as a scientist.</li>
+            <li> Kalam moves to the Indian Space Research Organisation (ISRO) where he helms India's first Satellite
+              Launch Vehicle (SLV-III) </li>
+            <li> Kalam heads Project Devil and Project Valiant, which developed ballistic missiles from the technology
+              of the SLV programme.</li>
+            <li>As the chief of the Integrated Guided Missile Development Programme, he is credited with the development
+              and operationalisation of Agni and Prithvi missiles. </li>
+            <li>India conducts the Pokhran II nuclear tests with Kalam being one of the forces behind its success </li>
+            <br>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 ">
+          <ul>
+            <li class="h3 list-unstyled"><em> When he became President </em></li>
+          </ul>
+          <img src="https://goo.gl/gPczz7" class="img-responsive img-thumbnail"> <br>
+          <ul> <br>
+            <li> Kalam is elected the 11th President of India succeeding KR Narayanan.</li>
+            <li> He won the 2002 presidential election with an electoral vote of 922,884. </li>
+            <li> During his five years in office, he was fondly called ‘The People’s President’</li>
+            <li> Kalam passes away aged 83, after collapsing because of a cardiac arrest while delivering a lecture at
+              IIM Shillong</li> <br>
+          </ul>
+        </div>
+
       </div>
 
     </div>
-
-  </div>
   </div>
   <footer class="navbar navbar-default text-center">
     <p class="h5"> Design and code by Rahul Nayak</p>
   </footer>
 
-	<script src="src/index.js">
-	</script>
+  </div>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <script src="src/index.js">
+  </script>
 </body>
 
 </html>
